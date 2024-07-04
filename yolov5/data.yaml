@@ -1,0 +1,5 @@
+train: ../yolo_data/train
+val: ../yolo_data/test
+
+nc: 2  # 클래스 수
+names: ['정상차량', '불법차량']  # 클래스 이름
